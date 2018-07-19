@@ -1,0 +1,2 @@
+[29-Nov-2016 23:10:06 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/cdbit/public_html/wp-content/themes/cloudbits/index.php on line 1
+[02-Dec-2016 06:47:25 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/cdbit/public_html/wp-content/themes/cloudbits/index.php on line 1

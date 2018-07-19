@@ -1,0 +1,155 @@
+.timeline ul li div.rowesc img{
+	margin: 0;
+}
+
+/* TIMELINE */
+
+.timeline ul {
+  padding: 50px 0;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 4px;
+  margin: 0 auto;
+  padding-top: 0;
+	background-color: #f79125;
+}
+
+
+.timeline ul li div.rowesc {
+  position: relative;
+  bottom: 0;
+  width: 280px;
+  padding: 0;
+  /*margin-bottom: 10px;*/
+}
+
+.timeline ul li div.rowesc::before {
+  content: '';
+  position: absolute;
+  bottom: 30px;
+  width: 0;
+  height: 4px;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div.rowesc {
+  left: 30px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -27px;
+  border-width: 0 17px 0 0;
+  border-color: transparent #f79125 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div.rowesc {
+  left: -290px;
+}
+
+.timeline ul li:nth-child(even) div.rowesc::before {
+  right: -27px;
+  border-width: 0 0 0 17px;
+  border-color: transparent transparent transparent #f79125;
+}
+
+time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background .10s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #f79125;
+}
+
+.timeline ul li div.rowesc {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div.rowesc {
+  transform: translate3d(20px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div.rowesc {
+  transform: translate3d(-20px, 0, 0);
+}
+
+.timeline ul li.in-view div.rowesc {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+@media screen and (max-width: 900px) {
+  .timeline ul li div.rowesc {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+
+  }
+}
+--*//*250+45-6*/
+
+@media only screen and (min-width: 320px) {
+	.timeline ul li div.rowesc {
+		width: 280px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+  .timeline{
+	  /*margin-left: -330px;*/
+  }
+
+  .timeline ul li {
+    margin-left: 0;
+  }
+
+  .timeline ul li:nth-child(even) div.rowesc {
+    left: 30px;
+  }
+  .timeline ul li:nth-child(even) div.rowesc::before {
+    left: -27px;
+    border-width: 0 17px 0 0;
+    border-color: transparent #f79125 transparent transparent
+  }
+}
+
+@media only screen and (min-width: 768px) {
+	.timeline ul li div.rowesc {
+		width: 340px;
+	}
+
+	.timeline ul li:nth-child(even) div.rowesc {
+	  left: -363px;		
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.timeline ul li div.rowesc {
+		width: 480px;
+	}
+
+	.timeline ul li:nth-child(even) div.rowesc {
+	  left: -503px;
+	}
+}

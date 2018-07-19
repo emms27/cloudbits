@@ -1,0 +1,51 @@
+/*
+Theme Name: Cloudbits
+Theme URI: https://cloudbits.org.mx/themes/cdbit/
+Description: Web de Cloudbits. Todos los derechos
+Author: cloudbits.org.mx
+Author URI: https://cloudbits.org.mx
+Version: 2.0
+*/
+
+/* ==== Google font ==== */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700italic,700,800italic,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500&amp;lang=es-419');
+@import url('https://fonts.googleapis.com/css?family=Capriola');
+@import url('css/animate.css');
+/*/plugins/ihover/src/ihover.min.css*/
+
+/* MAS */
+@font-face {
+  font-family: 'VaguelyFatal';
+  src: url('fonts/VaguelyFatal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GillSans-Light';
+  src: url('fonts/GillSans-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NEOTERIC-Regular';
+  src: url('fonts/NEOTERIC-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+PLUTON
+*/
+@font-face {
+ font-family: 'porta';
+ src: url('fonts/pluton.eot?49924914');
+ src: url('fonts/pluton.eot?49924914#iefix') format('embedded-opentype'),
+ url('fonts/pluton.woff?49924914') format('woff'),
+ url('fonts/pluton.ttf?49924914') format('truetype'),
+ url('fonts/pluton.svg?49924914#porta') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}

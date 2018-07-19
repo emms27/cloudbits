@@ -1,0 +1,125 @@
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow bounceInDown" data-wow-delay="0.4s">
+                     <h2>Servicios</h2>
+                     <h3>Crear, Diseños basados ​​en HTML5 interactivas atractivas y
+                         Gráficos en movimiento Que se pueden ejecutar en <b>CUALQUIER</b> Dispositivo.
+                     </h3>
+                     <i class="fa fa-2x fa-angle-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="wow fadeInLeft thumbnail" data-wow-delay="0.4s">
+                    <img src="<?php echo IMAGES ?>/servicios/servicio1.jpg" alt="team 1">
+                    <h3>Desarrollo Web</h3>
+                    <div class="mask">
+                        <p>Programación y Diseño Web, Desarrollo de Versión Móvil Web, Desarrollo de Aplicaciones Web, Comercio Electrónico, Periódicos en línea, Sistemas de Gestión de Contenido CMS.</p>
+                        <p><br><small>Sitios web profesionales, productivos que brindan soluciones inteligentes.</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="wow fadeInRight thumbnail" data-wow-delay="0.4s">
+                    <img src="<?php echo IMAGES ?>/servicios/servicio4.jpg" alt="team 1">
+                    <h3>Diseño Gráfico</h3>
+                    <div class="mask">
+                        <p>Desarrollo de Imagen Corporativa, Diseño de Logotipos, Diseño de páginas web, Folletos, Flyers, Papelería Corporativa, Manual de Identidad, Tipografías, Material de Apoyo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="wow fadeInUp thumbnail" data-wow-delay="0.4s">
+                    <img src="<?php echo IMAGES ?>/servicios/servicio7.jpg" alt="team 1">
+                    <h3>Aplicaciones Web</h3>
+                    <div class="mask">
+                        <p>Diseño y Desarrollo de Aplicaciones Web. Intranets como:<br><br>
+                          <ul>
+                           <li>Gestión de Proyectos</li>
+                           <li>Control de Gastos</li>
+                           <li>Control de Presencia</li>
+                           <li>Manuales de Calidad</li>
+                           <li>Sistema para Proveedores, Clientes y Colaboradores Externos</li>
+                          </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="wow fadeInDown thumbnail" data-wow-delay="0.4s">
+                    <img src="<?php echo IMAGES ?>/servicios/servicio6.jpg" alt="team 1">
+                    <h3>Search Engine Optimization</h3>
+                    <div class="mask">
+                        <p>Branding Online:<br><br>
+                         <ul>
+                          <li>Optimización de Motores de Búsqueda</li>
+                          <li>Search Engine Optimization</li>
+                          <li>Posicionamiento web</li>
+                          <li>Incremento de visitas</li>
+                          <li>Incremento en Ranking google o PageRank</li>
+                          <li>Estadísticas google analytics</li>
+                         </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="wow fadeInRight thumbnail" data-wow-delay="0.4s">
+                    <img src="<?php echo IMAGES ?>/servicios/servicio8.jpg" alt="team 1">
+                    <h3>Desarrollo de Apps</h3>
+                    <div class="mask">
+                        <p>Desarrollo de aplicaciones móviles para iPhone / iPad, Android, Blackberry y Windows Mobile.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="wow fadeInRight thumbnail" data-wow-delay="0.4s">
+                    <img src="<?php echo IMAGES ?>/servicios/servicio5.jpg" alt="team 1">
+                    <h3>Planes Hosting</h3>
+                    <div class="mask">
+                        <p>Aloja tu aplicación, tu página web con nosotros, tenemos el plan que necesitas<br><br>
+<a href="#modal"><button class="btn btn-skin pull-center">XPro</button></a>
+<a href="#modal2"><button class="btn btn-skin pull-center">XPro 2</button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+<div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+  <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+  <div>
+    <h2 id="modal1Title"><i class="fa fa-cubes fa-2x"></i> XPro</h2>
+    <p id="modal1Desc"><b>Incluye:</b>
+<ul style="list-style:none;">
+<li> 7 GB de Almacenamiento</li>
+<li> Tráfico Mensual Ilimitado</li>
+<li> Correos ilimitados</li>
+<li> Bases MySQL Ilimitados </li>
+<li> 1 Dominio GRATIS</li>
+</ul><br><i class="fa fa-usd fa-2x"> 399.00</i> + iva
+    </p>
+  </div>
+  <br>
+  <button data-remodal-action="confirm" class="remodal-cancel">Cerrar</button>
+  <button data-remodal-action="confirm" class="remodal-confirm"><i class="fa fa-paypal"></i> Contratar</button>
+</div>
+<div class="remodal" data-remodal-id="modal2" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+  <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+  <div>
+    <h2 id="modal1Title"><i class="fa fa-cubes fa-2x"></i> XPro 2</h2>
+    <p id="modal1Desc"><b>Incluye:</b>
+<ul style="list-style:none;">
+<li> 12 GB de Almacenamiento</li>
+<li> Tráfico Mensual Ilimitado</li>
+<li> Correos ilimitados</li>
+<li> Bases MySQL Ilimitados </li>
+<li> 1 Dominio GRATIS</li>
+</ul><br><i class="fa fa-usd fa-2x"> 699.00</i> + iva
+    </p>
+  </div>
+  <br>
+  <button data-remodal-action="confirm" class="remodal-cancel">Cerrar</button>
+  <button data-remodal-action="confirm" class="remodal-confirm"><i class="fa fa-paypal"></i> Contratar</button>
+</div>
